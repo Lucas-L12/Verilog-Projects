@@ -1,2 +1,7 @@
-# Verilog-Projects
+# Verilog Projects
+
 A collection of small Verilog projects for learning digital design concepts.
+
+## Projects
+
+- Fibonacci FSMD implementation
