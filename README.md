@@ -9,5 +9,4 @@ Implementation of a Fibonacci calculator using a **Finite State Machine with Dat
 Features:
 - FSM with three states: `idle`, `op`, `done`
 - iterative Fibonacci computation
-- testbench for simulation in Vivado
-- waveform verification
+
