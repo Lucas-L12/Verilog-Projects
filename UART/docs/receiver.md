@@ -2,6 +2,7 @@
 
 ## Description
 UART receiver implemented using a finite state machine (FSM).
+![UART Diagram](docs/Rx_ASMD.jpg)
 
 ## States
 - Idle: waits for start bit
