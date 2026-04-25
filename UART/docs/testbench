@@ -1,2 +1,52 @@
+## Testbench
 
-dwqd
+Self-checking testbench for UART verification using a loopback configuration (TX → RX).
+
+###  Features
+
+* Event-driven verification (no fixed delays)
+* Task-based stimulus (`send_byte`, `read_byte`)
+* Handshake synchronization (`tx_done`, `rx_empty`)
+* Timeout protection to avoid deadlocks
+* Random and stress testing
+
+---
+
+###  Verification Approach
+
+The testbench avoids fixed delays and uses DUT signals:
+
+* `wait(tx_done)` → ensures transmission completion
+* `while(rx_empty)` → waits for valid data
+
+This makes the testbench robust to timing changes.
+
+---
+
+###  Tests
+
+* **Test 1 – Basic**
+  Send a known value (`0x41`) and verify reception.
+
+* **Test 2 – Random**
+  Send random bytes and check:
+
+  ```
+  sent == received
+  ```
+
+* **Test 3 – Stress**
+  Continuous transmissions to validate stability.
+
+---
+
+###  Error Detection
+
+* Data mismatches → `$error`
+* RX timeout → detects protocol failures
+
+---
+
+
+
+
