@@ -2,7 +2,7 @@
 
 ## 🧠 Architecture
 
-![UART Diagram](docs/Uart_chart)
+![UART Diagram](docs/Uart_chart.jpg)
 
 ---
 
