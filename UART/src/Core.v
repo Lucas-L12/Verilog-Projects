@@ -1,6 +1,4 @@
 `timescale 1ns / 1ps
-
-
 module Core
 #(
     parameter DBIT=8,
@@ -65,7 +63,6 @@ module Core
    
     // Output logic
     assign rx_empty = ~rx_ready;
-
     assign tx_start_pulse = tx_start & ~tx_start_d;
     assign tx_done = tx_done_tick;
 
