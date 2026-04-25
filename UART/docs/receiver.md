@@ -1,23 +1,26 @@
 # Receiver
 
+## ASMD Diagram
+
+![Receiver ASMD](Rx_ASMD.jpg)
+
+---
+
 ## Description
 
-![ASMD chart for receiver](Rx_ASMD.jpg)
+The receiver is implemented as a Finite State Machine with Datapath (FSMD).
 
+### States
 
-## States
-- Idle: waits for start bit
-- Start: validates start bit
-- Data: receives 8 bits
-- Stop: checks stop bit
+- **Idle**: Waits for start bit (rx = 0)
+- **Start**: Validates start bit at its midpoint
+- **Data**: Receives 8 bits using oversampling
+- **Stop**: Waits for stop bit and signals completion
 
-## Inputs
-- `rx`: serial input
-- `s_tick`: sampling tick
+---
 
-## Outputs
-- `dout`: received byte
-- `rx_done_tick`: indicates reception complete
+## Key Features
 
-## How it works
-The receiver samples the signal in the middle of each bit using 16x oversampling.
+- 16x oversampling
+- Mid-bit sampling for reliability
+- Shift register for data reception
