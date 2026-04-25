@@ -7,14 +7,15 @@
 ---
 
 ## 🔗 Blocks Description
+- [Interface ](docs/interface.md)
 
 ### RX Path
 - [Baud Rate Generator](docs/baudrate.md)
 - [Receiver](docs/receiver.md)
-- [Interface RX](docs/interface_rx.md)
+
 
 ### TX Path
-- [Interface TX](docs/interface_tx.md)
+
 - [Transmitter](docs/transmitter.md)
 
 ---
