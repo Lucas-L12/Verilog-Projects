@@ -14,7 +14,7 @@
 
 ---
 ## Test
-- [Testbench](docs/testbench)
+- [Testbench](docs/testbench.md)
 
 ## 🔁 Data Flow
 
