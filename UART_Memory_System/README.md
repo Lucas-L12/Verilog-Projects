@@ -220,7 +220,4 @@ Potential future extensions:
 
 ---
 
-# Author
-
-Digital Design and Verification Project developed in SystemVerilog using Vivado.
 
