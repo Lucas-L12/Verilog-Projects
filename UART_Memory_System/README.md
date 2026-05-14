@@ -40,6 +40,8 @@ The system is composed of the following modules:
 
 The Controller FSM coordinates all system operations and supervises communication between the different internal modules.
 
+![Top Level Architecture](docs/Top Architecture controlled UART.png)
+
 ---
 
 # Supported UART Protocol
