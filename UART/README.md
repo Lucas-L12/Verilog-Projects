@@ -1,12 +1,12 @@
 # UART in Verilog
 
-## 🧠 Architecture
+##  Architecture
 
 ![UART Diagram](docs/Uart_chart.jpg)
 
 ---
 
-## 🔗 Blocks Description
+##  Blocks Description
 - [Baud Rate Generator](docs/baudrate.md)
 - [Receiver](docs/receiver.md)
 - [Transmitter](docs/transmitter.md)
@@ -16,7 +16,7 @@
 ## Test
 - [Testbench](docs/testbench.md)
 
-## 🔁 Data Flow
+##  Data Flow
 
 RX:
 rx → receiver → interface → r_data
