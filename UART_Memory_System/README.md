@@ -201,6 +201,8 @@ Final simulation summary:
 TESTS PASSED = 26
 TESTS FAILED = 0
 ```
+   ![Top Level Architecture](docs/waveform_complete.png)
+
 
 ---
 
