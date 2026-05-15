@@ -1,6 +1,6 @@
 # Verilog Projects
 
-A collection of digital design projects implemented in Verilog, focused on learning and applying hardware design concepts such as:
+A collection of digital design projects implemented in Verilog/SystemVerilog, focused on learning and applying hardware design concepts such as:
 
 - Finite State Machines (FSM)
 - FSMD architectures
